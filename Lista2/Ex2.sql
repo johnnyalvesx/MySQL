@@ -52,7 +52,7 @@ select * from tb_pizza;
 select * from tb_pizza where preco > 45;
 
 -- select trazendo os Produtos com valor entre 29 e 60 reais.
-select * from tb_pizza where preco between 26 and 60;
+select * from tb_pizza where preco between 29 and 60;
 
 -- select utilizando LIKE buscando os Produtos com a letra C.
 select * from tb_pizza where sabor like "c%"; -- Posicionando o % dessa forma, seleciona apenas a primeira letra
